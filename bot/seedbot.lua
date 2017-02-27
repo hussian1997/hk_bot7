@@ -208,38 +208,118 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
+      "4",
+    "APICLI",
+    "addbot1",
+    "admin",
+    "all",
+    "anti-spam",
+    "anti_media",
+    "ar-azan",
+    "ar-badword",
+    "ar-banhammmer",
+    "ar-broadcast",
+    "ar-getfile",
+    "ar-lock-bot",
+    "ar-map",
+    "ar-weather",
+    "arabic_lock",
+    "auto_run",
+    "azan",
+    "banhammer",
+    "broadcast",
+    "bye",
+    "dobye",
+    "dowelcome",
+    "echo",
+    "filter",
+    "get",
+    "help",
+    "helps.pv",
+    "image23",
+    "infoeng",
     "ingroup",
     "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "download_media",
+    "inrealm",
+    "instagram",
     "invite",
-    "all",
     "leave_ban",
-    "admin"
+    "linkpv",
+    "list",
+    "list3",
+    "listt1",
+    "lock_badword",
+    "lock_emoji",
+    "lock_english",
+    "lock_fwwd",
+    "lock_join",
+    "lock_reply",
+    "lock_tag",
+    "lock_username",
+    "msg_checks",
+    "music_eng",
+    "onservice",
+    "owners",
+    "plugins",
+    "rdod",
+    "rebot",
+    "rediss",
+    "Replly",
+    "send",
+    "serverinfo",
+    "set",
+    "set_type",
+    "short_link",
+    "stats",
+    "sticker23",
+    "sudolist",
+    "superr",
+    "tag_english",
+    "textphoto",
+    "time",
+    "translate",
+    "voice",
+    "welecam",
+    "whitelist",
+    "writer",
+    "wife.bot",
+    "car",
+    "run",
+    "RDOD",
+    "meke.acdar",
+    "meke.addbot",
+    "meke.sorus",
+    "meke.dev",
+    "meke.talem",
+    "meke.welacam",
+    "meke.tadel1",
+    "ar-h11",
+    "ar-h22",
+    "ar-h33",
+    "ar-h44",
+    "ar-h55",
+    "ar-supergroupT",
+    "meke.cudo",
+    "meke.del.masg",
+    "meke.deleatd",
+    "meke.me",
+    "meke.uoser",
+    "Repllly"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {73928866,250180860,177659243,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/hussian1997/hk_bot
 
 Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
+Alphonse (@MEKE2015)
+I M /-\ N (@MEKE2015)
+Siyanew (@MEKE2015)
+Rondoozle (@MEKE2015)
+Seyedan (@MEKE2015)
 
 Special thanks to:
 Juan Potato
@@ -248,8 +328,8 @@ Topkecleon
 Vamptacus
 
 Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+English: @MEKE2015
+Persian: @MEKE2015
 ]],
     help_text_realm = [[
 Realm Commands:
